@@ -1,9 +1,17 @@
-import React from 'react'
+"use client";
+import React from "react";
+import { useRouter } from "next/navigation";
 
 const LoginSpecificDEtail = () => {
-  return (
-    <div>LoginSpecificDEtail</div>
-  )
-}
+  const router = useRouter();
 
-export default LoginSpecificDEtail
+  console.log("router", router);
+
+  return (
+    <>
+      <div>LoginSpecificDEtail</div>
+    </>
+  );
+};
+
+export default LoginSpecificDEtail;
