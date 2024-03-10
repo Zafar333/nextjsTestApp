@@ -20,6 +20,8 @@ export default function Home() {
      <button onClick={()=>navigate.push("/clientSideComponent")}>go to client side component</button>
      <button onClick={()=>navigate.push("/serverSideComponent")}>go to Server side component</button>
      <button onClick={()=>navigate.push("/mainLayout/home")}>go to Home Page component</button>
+     <button onClick={()=>navigate.push("/googleMap")}>go to Google Map Page component</button>
+     
     </main>
   );
 }
